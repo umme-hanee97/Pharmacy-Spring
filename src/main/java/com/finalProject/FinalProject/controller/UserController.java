@@ -24,7 +24,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/users", produces = MediaType.APPLICATION_JSON_VALUE)
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://pharmacy-angular.onrender.com/", allowCredentials = "true")
 public class UserController {
 
     @Autowired
