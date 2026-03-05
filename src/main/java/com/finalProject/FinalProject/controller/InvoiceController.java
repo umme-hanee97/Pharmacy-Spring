@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/invoice")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://pharmacy-angular.onrender.com/", allowCredentials = "true")
 public class InvoiceController {
 
     @Autowired
