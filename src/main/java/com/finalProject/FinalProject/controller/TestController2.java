@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 //@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://pharmacy-angular.onrender.com/", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/test2")
 public class TestController2 {
