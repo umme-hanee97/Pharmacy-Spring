@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/doctor")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://pharmacy-angular.onrender.com/", allowCredentials = "true")
 public class DoctorController {
 
     @Autowired

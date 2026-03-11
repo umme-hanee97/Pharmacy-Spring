@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://pharmacy-angular.onrender.com/", allowCredentials = "true")
 public class AuthController {
     @Autowired
     AuthenticationManager authenticationManager;
