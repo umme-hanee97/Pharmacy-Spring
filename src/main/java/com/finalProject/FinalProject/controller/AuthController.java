@@ -132,7 +132,7 @@ public class AuthController {
             });
         }
 
-//        user.setRoles(roles);
+        user.setRoles(roles.stream().collect(Collectors.toSet()));
         userRepository.save(user);
         return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
     }
